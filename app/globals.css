@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #fafbfc;
+  --card: #ffffff;
+  --border: #e8eaef;
+  --txt: #1a1a2e;
+  --txt2: #444466;
+  --dim: #8888a0;
+  --accent: #2563eb;
+  --accent2: #3b82f6;
+  --accent-bg: rgba(37,99,235,.06);
+  --ok: #10b981;
+  --r: 14px;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--txt);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* 글 본문 스타일 */
+.article-body h2 {
+  font-size: 22px; font-weight: 700; margin: 36px 0 14px;
+  padding-bottom: 10px; border-bottom: 2px solid var(--accent-bg);
+  color: var(--txt);
+}
+.article-body h3 {
+  font-size: 18px; font-weight: 600; margin: 28px 0 10px; color: var(--txt);
+}
+.article-body p {
+  margin: 12px 0; font-size: 16px; line-height: 1.85; color: var(--txt2);
+}
+.article-body ul {
+  margin: 12px 0 12px 20px; font-size: 16px; color: var(--txt2);
+}
+.article-body li {
+  margin: 8px 0; line-height: 1.8;
+}
+.article-body strong { color: var(--txt); }
+.article-body em { color: var(--dim); }
+.article-body img {
+  max-width: 100%; height: auto; border-radius: 12px;
+  margin: 20px 0; display: block;
+}
